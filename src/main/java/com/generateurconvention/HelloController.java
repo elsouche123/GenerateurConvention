@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api")
 public class HelloController {
 
-    @GetMapping()
-    public String defaultPage() {
-        return "Bienvenue sur GenerateurConvention !";
+    @GetMapping("/hello")
+    public String sayHello() {
+        return "Hello, Spring Boot with Swagger!";
     }
 }
