@@ -83,6 +83,6 @@ Application Spring Boot pour gérer la génération de conventions au format PDF
 ---
 
 ## **Auteur**
-Projet maintenu par **<votre nom ou organisation>**.
+Projet maintenu par **Elsa HADJADJ**.
 
 ---
